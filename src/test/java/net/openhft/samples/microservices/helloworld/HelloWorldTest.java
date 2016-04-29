@@ -33,7 +33,7 @@ public class HelloWorldTest {
     public void testWithAsQueueService() {
         // acts as three processes in one test
         // process A writes to the HelloWorld interface.
-        // process B read fromt he HelloWorld interface and writes to the
+        // process B read from the HelloWorld interface and writes to the
         String input = OS.TARGET + "/input-" + System.nanoTime();
         String output = OS.TARGET + "/output-" + System.nanoTime();
 
